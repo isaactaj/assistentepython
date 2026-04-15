@@ -1,5 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
 
-*.venv
-LEIAME.txt
-*.png
-*.jpg
+# Ambientes virtuais
+.venv/
+venv/
+env/
+ENV/
+.conda/
+
+# Variáveis de ambiente (chaves de API, segredos)
+.env
+.env.local
+*.env
+
+# IDE e editores
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Distribuição / build
+dist/
+build/
+*.egg-info/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Logs
+*.log

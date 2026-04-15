@@ -1,0 +1,23 @@
+# Isaac's AI Coder — Assistente de Programação Python
+
+Chatbot em Python que tira dúvidas sobre a linguagem Python usando LLMs via API da Groq, com interface web em Streamlit e histórico de conversa por sessão.
+
+Projeto desenvolvido durante o curso Fundamentos de Linguagem Python da Data Science Academy, mantido como exercício de integração com APIs de LLM, prompt engineering e construção de agentes de IA.
+
+## Features
+
+- Chat com histórico de conversa por sessão (mantém contexto entre perguntas)
+- System prompt customizado que define o comportamento do assistente (foco em Python, formato de resposta com explicação + código + referência)
+- Configuração do modelo Groq via código (atualmente usando `openai/gpt-oss-20b`)
+- Chave de API inserida pelo próprio usuário no front (não exposta no código)
+
+## Stack
+
+- **Python 3.13**
+- **Streamlit** — interface web
+- **Groq API** — inferência de LLM
+- **Conda** — gerenciamento de ambiente
+
+## Como rodar
+
+[mantém o resto do README que eu te passei antes]
